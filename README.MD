@@ -535,6 +535,49 @@ Output:
 ```
 ---
 
+## `get group by user_id`
+
+```
+Route: /api/groups/get/single/user_id/{user_id}
+```
+
+```
+Method: GET
+```
+
+```
+Input: /api/groups/get/single/user_id/40
+```
+
+```
+Output:
+[
+    {
+        "group_id": 30,
+        "name": "Group new",
+        "description": "Group new is special",
+    },..
+]
+```
+
+### Status codes
+
+```
+200: Status OK
+* The request was successful
+```
+
+```
+400: Bad request
+* no hits on the id entered
+```
+
+```
+500: Internal error
+* Something went wrong server side
+```
+---
+
 ## `update a group`
 ```
 Brief: update a group
