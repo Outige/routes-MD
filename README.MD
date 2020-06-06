@@ -139,6 +139,123 @@ Output:
 ```
 ---
 
+## `update username`
+
+```
+Route: /api/users/update/username
+```
+
+```
+Method: PUT
+```
+
+```
+Input:
+{
+	"user_id":40,
+	"username":"new user name2"
+}
+```
+
+```
+Output: null
+```
+
+### Status codes
+
+```
+200, 400, 500
+```
+---
+
+## `update password`
+
+```
+Route: /api/users/update/password
+```
+
+```
+Method: PUT
+```
+
+```
+Input:
+{
+	"user_id":40,
+	"old_password":"p",
+	"new_password":"p"
+}
+```
+
+```
+Output: null
+```
+
+### Status codes
+
+```
+200, 400, 500
+```
+---
+
+## `update user email`
+
+```
+Route: /api/users/update/email
+```
+
+```
+Method: PUT
+```
+
+```
+Input:
+{
+	"user_id":40,
+	"email":"newemail@gmailll"
+}
+```
+
+```
+Output: null
+```
+
+### Status codes
+
+```
+200, 400, 500
+```
+---
+
+## `update user avatar`
+
+```
+Route: /api/users/update/avatar
+```
+
+```
+Method: PUT
+```
+
+```
+Input:
+{
+	"user_id":40,
+	"avatar":"avatar1"
+}
+```
+
+```
+Output: null
+```
+
+### Status codes
+
+```
+200, 400, 500
+```
+---
+
 ## `delete_user`
 
 ```
